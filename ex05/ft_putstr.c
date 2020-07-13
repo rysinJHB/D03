@@ -6,7 +6,7 @@
 /*   By: rysin <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/13 13:14:56 by rysin             #+#    #+#             */
-/*   Updated: 2020/07/13 13:15:40 by rysin            ###   ########.fr       */
+/*   Updated: 2020/07/13 14:27:23 by rysin            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,6 @@ void	ft_putstr(char *str)
 		write(1, str++, 1);
 }
 int main(void) {
-	ft_putstr("Duck Tales");
+	ft_putstr("42");
 	return 0;
 }
