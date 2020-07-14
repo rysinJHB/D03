@@ -6,7 +6,7 @@
 /*   By: rysin <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/13 12:26:26 by rysin             #+#    #+#             */
-/*   Updated: 2020/07/14 10:40:57 by rysin            ###   ########.fr       */
+/*   Updated: 2020/07/14 10:44:14 by rysin            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 void	ft_ft(int *nbr){
 	*nbr = 42;
 	}
-void 	ft_putnbr(int nbr)
+void 	ft_putnbr(int *nbr)
 {
 }
 int main (void)
@@ -28,6 +28,6 @@ int main (void)
 	ptr = &a;
 
 		ft_ft(ptr);
-		ft_putnbr(*ptr);
+		ft_putnbr(ptr);
 		return(0);
 }
